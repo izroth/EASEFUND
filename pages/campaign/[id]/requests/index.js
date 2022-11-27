@@ -285,7 +285,6 @@ export default function Requests({
       <Head>
         <title>Campaign Withdrawal Requests</title>
         <meta name="description" content="Create a Withdrawal Request" />
-        <link rel="icon" href="/logo.svg" />
       </Head>
 
       <main>
