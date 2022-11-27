@@ -79,7 +79,7 @@ export default function NewRequest() {
       </Head>
       <main>
         <Stack spacing={8} mx={"auto"} maxW={"2xl"} py={12} px={6}>
-          <Text fontSize={"lg"} color={"teal.400"} justifyContent="center">
+          <Text fontSize={"lg"} color={"#744210"} justifyContent="center">
             <ArrowBackIcon mr={2} />
             <NextLink href={`/campaign/${id}/requests`}>
               Back to Requests
@@ -155,10 +155,10 @@ export default function NewRequest() {
                 <Stack spacing={10}>
                   {wallet.status === "connected" ? (
                     <Button
-                      bg={"teal.400"}
+                      bg={"#966c30"}
                       color={"white"}
                       _hover={{
-                        bg: "teal.500",
+                        bg: "#c4913e",
                       }}
                       isLoading={isSubmitting}
                       type="submit"
@@ -169,9 +169,9 @@ export default function NewRequest() {
                     <Stack spacing={3}>
                       <Button
                         color={"white"}
-                        bg={"teal.400"}
+                        bg={"#966c30"}
                         _hover={{
-                          bg: "teal.300",
+                          bg: "#c4913e",
                         }}
                         onClick={() => wallet.connect()}
                       >

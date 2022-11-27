@@ -227,7 +227,7 @@ export default function Home({ campaigns }) {
   return (
     <div>
       <Head>
-        <title>BetterFund</title>
+        <title>EASEFUND</title>
         <meta
           name="description"
           content="Transparent Crowdfunding in Blockchain"
@@ -301,7 +301,7 @@ export default function Home({ campaigns }) {
           <HStack spacing={2}>
             <SkeletonCircle size="4" />
             <Heading as="h2" size="lg">
-              How BetterFund Works
+              How EASEFUND Works
             </Heading>
           </HStack>
           <Divider marginTop="4" />
@@ -332,7 +332,7 @@ export default function Home({ campaigns }) {
             For any queries raise an issue on{" "}
             <Link
               color="#744210"
-              href="https://github.com/harsh242/betterfund-crowdfunding-in-blockchain/issues"
+              href="https://github.com/avnishranwa7/EASEFUND/issues"
               isExternal
             >
               the Github Repo <ExternalLinkIcon mx="2px" />

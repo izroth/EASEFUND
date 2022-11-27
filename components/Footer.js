@@ -84,7 +84,7 @@ export default function Footer() {
           <NextLink href="/">Home</NextLink>
           <Link
             href={
-              "https://github.com/harsh242/betterfund-crowdfunding-in-blockchain"
+              "https://github.com/avnishranwa7/EASEFUND"
             }
             isExternal
           >

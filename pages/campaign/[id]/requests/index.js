@@ -125,7 +125,7 @@ const RequestRow = ({
       <Td>
         <Link
           color="teal.500"
-          href={`https://rinkeby.etherscan.io/address/${request.recipient}`}
+          href={`https://goerli.etherscan.io/address/${request.recipient}`}
           isExternal
         >
           {" "}
@@ -291,7 +291,7 @@ export default function Requests({
         <Container px={{ base: "4", md: "12" }} maxW={"7xl"} align={"left"}>
           <Flex flexDirection={{ base: "column", md: "row" }} py={4}>
             <Box py="4">
-              <Text fontSize={"lg"} color={"teal.400"}>
+              <Text fontSize={"lg"} color={"#744210"}>
                 <ArrowBackIcon mr={2} />
                 <NextLink href={`/campaign/${campaignId}`}>
                   Back to Campaign
@@ -360,10 +360,10 @@ export default function Requests({
                     fontSize={"md"}
                     fontWeight={600}
                     color={"white"}
-                    bg={"teal.400"}
+                    bg={"#966c30"}
                     href={"#"}
                     _hover={{
-                      bg: "teal.300",
+                      bg: "#c4913e",
                     }}
                   >
                     Add Withdrawal Request
