@@ -16,17 +16,15 @@ We were highly inspired by the CryptoRelief initiative ([www.cryptorelief.in](ht
 
 ## Screenshots 
 #### Home Page :
-![image](https://ibb.co/55TJJh2)
+![image](https://user-images.githubusercontent.com/66385632/204150244-8fc820b0-802c-4476-97ba-1ad9e8207161.png)
 ### Campaign Page :
-![image](https://ibb.co/7STnSq7)
+![image](https://user-images.githubusercontent.com/66385632/204150234-9c34c9df-68ce-4b11-8f06-e75df7971bfc.png)
 ### Create Campaign Page :
-![image](https://ibb.co/2SrB2Bt)
+![image](https://user-images.githubusercontent.com/66385632/204150218-6e0baee5-6cb9-4b99-b9c4-ee3dca16d561.png)
 ### Withdrawal Request Page :
-![image](https://ibb.co/Z2tpc8x)
+![image](https://user-images.githubusercontent.com/66385632/204150204-dbdce163-9d3a-4369-a82f-9973e5c03463.png)
 ### New Withdrawal Request Page :
-![image](https://ibb.co/zFC6XBy)
-
-
+![image](https://user-images.githubusercontent.com/66385632/204150174-8fae0de9-119a-4926-b0e0-53bf2f7b1870.png)
 
 ## Tech Stack 
 - Next JS
