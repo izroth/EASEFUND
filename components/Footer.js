@@ -9,6 +9,7 @@ import {
   VisuallyHidden,
   Heading,
   useBreakpointValue,
+  Img
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaGithub, FaGlobe } from "react-icons/fa";
 import NextLink from "next/link";
@@ -42,7 +43,7 @@ const SocialButton = ({ children, label, href }) => {
 export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
+      bg="#f4f3ef"
       color={useColorModeValue("gray.700", "gray.200")}
     >
       <Container
@@ -76,7 +77,7 @@ export default function Footer() {
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/"><Img src='https://i.ibb.co/bKk2nsD/logo.png' style={{cursor: 'pointer'}}/></NextLink>
           </Box>
         </Heading>
         <Stack direction={"row"} spacing={6}>
@@ -89,7 +90,7 @@ export default function Footer() {
           >
             Github
           </Link>
-          <Link href={"mailto:harshbadhai242@gmail.com"} isExternal>
+          <Link href={"mailto:avnishranwa7@gmail.com"} isExternal>
             Contact
           </Link>
         </Stack>
@@ -106,31 +107,10 @@ export default function Footer() {
           py={4}
           direction={{ base: "column", md: "row" }}
           spacing={4}
-          justify={{ base: "center", md: "space-between" }}
+          justify={{ base: "center"}}
           align={{ base: "center", md: "center" }}
         >
-          <Text>🌐 Made while 💩 by Harsh, Hritvik , Nischal & Aaditya</Text>
-          <Stack direction={"row"} spacing={6}>
-            <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
-              {" "}
-              <FaGlobe />
-            </SocialButton>
-            <SocialButton
-              label={"Twitter"}
-              href={"https://twitter.com/harshbadhai28"}
-            >
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label={"Github"} href={"https://github.com/harsh242"}>
-              <FaGithub />
-            </SocialButton>
-            <SocialButton
-              label={"Instagram"}
-              href={"https://www.instagram.com/frames_by._harsh/"}
-            >
-              <FaInstagram />
-            </SocialButton>
-          </Stack>
+          <Text>🌐 Made by Avnish & Divyanshu</Text>
         </Container>
       </Box>
     </Box>

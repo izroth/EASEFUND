@@ -13,6 +13,7 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
+  Img
 } from "@chakra-ui/react";
 import { useWallet } from "use-wallet";
 
@@ -42,10 +43,7 @@ export default function NavBar() {
         justify={"center"}
         css={{
           backdropFilter: "saturate(180%) blur(5px)",
-          backgroundColor: useColorModeValue(
-            "rgba(255, 255, 255, 0.8)",
-            "rgba(26, 32, 44, 0.8)"
-          ),
+          backgroundColor: "#f4f3ef",
         }}
       >
         <Container as={Flex} maxW={"7xl"} align={"center"}>
@@ -73,7 +71,7 @@ export default function NavBar() {
                   zIndex: -1,
                 }}
               >
-                <NextLink href="/">🤝BetterFund</NextLink>
+                <NextLink href="/"><Img src='https://i.ibb.co/bKk2nsD/logo.png' style={{cursor: 'pointer'}}/></NextLink>
               </Box>
             </Heading>
           </Flex>
@@ -120,10 +118,10 @@ export default function NavBar() {
                   fontSize={"md"}
                   fontWeight={600}
                   color={"white"}
-                  bg={"teal.400"}
+                  bg={"#966c30"}
                   href={"#"}
                   _hover={{
-                    bg: "teal.300",
+                    bg: "#c4913e",
                   }}
                   onClick={() => wallet.connect()}
                 >
